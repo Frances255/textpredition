@@ -4,7 +4,7 @@
 - 所使用的语料来自github，目测是别人爬的微薄评论
 - 所使用的词典来自知网的情感词典</br>
 
-##代码说明</br>
+### 代码说明</br>
 1.导入语料文件并对文本进行处理，去掉换行符和空格
 <pre><code>
 f = codecs.open("D:\\emotion-analysis\\data\\pnn_annotated.txt",'r',encoding='utf-8')
